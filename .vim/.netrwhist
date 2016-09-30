@@ -1,6 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/develop/php-extension/curl-client'
 let g:netrw_dirhist_2='/develop/php-extension'
 let g:netrw_dirhist_3='/develop/php-extension/curl-client'
 let g:netrw_dirhist_4='/develop/yii2-extensions/yii2-cloud-storage'
+let g:netrw_dirhist_5='/Users/chendong/develop/golang/src/github.com'
+let g:netrw_dirhist_6='/Users/chendong/golang/src/github.com/cdcchen/hello'
+let g:netrw_dirhist_7='/Users/chendong/develop/angularjs/quickstart/typings'
+let g:netrw_dirhist_8='/Users/chendong/develop/nodejs/express-guide'
+let g:netrw_dirhist_9='/Users/chendong/develop/nodejs/expressjs-example'

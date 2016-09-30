@@ -1,13 +1,6 @@
-export GOPATH=$HOME/develop/golang
+export GOPATH=$HOME/golang
 export PATH=$PATH:$GOPATH/bin
-
 export NODE_PATH=/usr/local/lib/node_modules
-
-alias ll="ls -l"
-alias la="ls -la"
-
-alias vim="/usr/local/bin/vim"
-
 
 # Setting PATH for Python 2.7
 # The orginal version is saved in .bash_profile.pysave
@@ -22,4 +15,12 @@ export PATH
 export CLICOLOR=1
 export LSCOLORS=gxfxaxdxcxegedabagacad
 
+alias ll="ls -l"
+alias la="ls -la"
+
+alias vim="/usr/local/bin/vim"
+
 [ -r ~/.bashrc ] && source ~/.bashrc
+[ -r ~/.profile ] && source ~/.profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
